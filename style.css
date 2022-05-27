@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+    background-color: #42C2FF;
+}
+.main{
+    background-color: white;
+    width: 350px;
+    min-height: 450px;
+    margin: 50px auto;
+    box-shadow: 3px 3px 10px 3px gray;
+}
+#heading{
+    text-align: center;
+    padding: 15px 10px 0px 10px;
+    color: black;
+}
+.editbtn{
+    background-color: rgb(45, 45, 237);
+    margin-right: 10px;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.937);
+}
+.dltbtn{
+    background-color: rgb(234, 31, 31);
+    color: rgba(255, 255, 255, 0.937);
+
+    /* margin-left: 30px; */
+}
+button{
+    background-color: #C4DDFF;
+    border-radius: 6px;
+    margin-left: 3px;
+}
+#input{
+    border-radius: 5px;
+    border: 1px solid;
+}
+.liList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+#addItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+@media only screen and (max-width: 500px){
+    .main{
+        width: 250px;
+    }
+    .main #addItem{
+        width: 200px;
+    }
+    .liList{
+        width: 200px;
+    }
+} */
+
+
+
+
+/* 
+@media only screen and (max-width: 600px) {
+    .body{
+        width: 100%;
+    }
+    #list{
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .body{
+        width: 100%;
+        background-color: red;
+    }
+    #list{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .body{
+        width: 100%;
+        background-color: red;
+    }
+    #list{
+        width: 100%;
+    }
+}
+ */
